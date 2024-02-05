@@ -27,17 +27,20 @@ export default function Ludoboard(){
 
 
     return(
-        <div>
-            <p>Game begins!</p>
+        <div style={{backgroundColor:"white", padding:"2rem 6rem 0rem 6rem",borderRadius:"1rem"}}>
+            <h2>Lets go!</h2>
+            <br />
             <div className="board">
-                <p>Blue moves = {moves.blue}</p>
+                <h3>Blue moves = {moves.blue}</h3>
                 <button style={{backgroundColor:"blue",color:"white"}} onClick={updateBlue}>+1</button>
-                <p>Yellow moves = {moves.yellow}</p>
+                <h3>Yellow moves = {moves.yellow}</h3>
                 <button style={{backgroundColor:"yellow"}} onClick={updateYellow}>+1</button>
-                <p>Green moves= {moves.green}</p>
+                <h3>Green moves= {moves.green}</h3>
                 <button style={{backgroundColor:"green"}} onClick={updateGreen}>+1</button>
-                <p>Red moves= {moves.red}</p>
+                <h3>Red moves= {moves.red}</h3>
                 <button style={{backgroundColor:"red"}} onClick={updateRed}>+1</button>
+                <br /><br />
+                <h4>© Tauqeer-sayeed</h4>
             </div>
         </div>
     )
