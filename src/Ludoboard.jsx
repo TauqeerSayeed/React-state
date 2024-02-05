@@ -27,9 +27,8 @@ export default function Ludoboard(){
 
 
     return(
-        <div style={{backgroundColor:"white", padding:"2rem 6rem 0rem 6rem",borderRadius:"1rem"}}>
+        <div style={{backgroundColor:"white", padding:"0.5rem 6rem 0rem 6rem",borderRadius:"1rem"}}>
             <h2>Lets go!</h2>
-            <br />
             <div className="board">
                 <h3>Blue moves = {moves.blue}</h3>
                 <button style={{backgroundColor:"blue",color:"white"}} onClick={updateBlue}>+1</button>
